@@ -1,4 +1,4 @@
-# magicmaster-pro
+# Magic Master
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,134 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-magicmaster-pro is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://magicmaster.pro/
+Magic Master provides AI‑powered online audio mastering for free or token‑based pricing. Users can upload tracks and receive LUFS‑normalized, True Peak‑limited masters suitable for streaming platforms. The service offers additional tools like stem separation, audio restoration, and AI‑cleaner, with a developer API for automated integration.
+
+**Areas:** Audio · AI · Mastering · Online Service · Free
+
+## Magic Master on APIs.io
+
+Everything profiled for Magic Master is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/magicmaster-pro/](https://apis.io/providers/magicmaster-pro/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Magic Master Agents API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-agents-api/) — The agents API from Magic Master — 1 operation(s) for agents.
+- [Magic Master Auth API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-auth-api/) — The Auth API from Magic Master — 2 operation(s) for auth.
+- [Magic Master Health API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-health-api/) — The Health API from Magic Master — 1 operation(s) for health.
+- [Magic Master Mastering API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-mastering-api/) — The mastering API from Magic Master — 15 operation(s) for mastering.
+- [Magic Master Presets API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-presets-api/) — The Presets API from Magic Master — 1 operation(s) for presets.
+- [Magic Master Tokens API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-tokens-api/) — The Tokens API from Magic Master — 1 operation(s) for tokens.
+- [Magic Master Version API](https://apis.io/apis/magicmaster-pro/magicmaster-pro-version-api/) — The Version API from Magic Master — 1 operation(s) for version.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Magic Master Agentic Access](https://apis.io/agentic-access/magicmaster-pro/magicmaster-pro-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentRegisterRequest](https://apis.io/schemas/magicmaster-pro/magicmaster-pro-agent-register-request/)
+- [Body_api_master_v2_api_v2_master_post](https://apis.io/schemas/magicmaster-pro/magicmaster-pro-body-api-master-v2-api-v2-master-post/)
+- [Body_api_v2_batch_api_v2_batch_post](https://apis.io/schemas/magicmaster-pro/magicmaster-pro-body-api-v2-batch-api-v2-batch-post/)
+- [Body_api_v2_master_auto_api_v2_master_auto_post](https://apis.io/schemas/magicmaster-pro/magicmaster-pro-body-api-v2-master-auto-api-v2-master-auto-post/)
+- [Body_api_v2_master_stems_api_v2_master_stems_post](https://apis.io/schemas/magicmaster-pro/magicmaster-pro-body-api-v2-master-stems-api-v2-master-stems-post/)
+- [RegisterRequest](https://apis.io/schemas/magicmaster-pro/magicmaster-pro-register-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Magicmaster Pro Context](https://apis.io/jsonld/magicmaster-pro/magicmaster-pro-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Magic Master API Rules](https://apis.io/rules/magicmaster-pro/magicmaster-pro-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Magic Master Domain Security](https://apis.io/security/magicmaster-pro/magicmaster-pro-domain-security/)
+- [Magic Master Vulnerability Disclosure](https://apis.io/security/magicmaster-pro/magicmaster-pro-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Magic Master Plans Pricing](https://apis.io/plans/magicmaster-pro/magicmaster-pro-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://magicmaster.pro/)
+- [Documentation](https://magicmaster.pro/developers)
+- [API reference](https://magicmaster.pro/openapi.json)
+- [Pricing](https://magicmaster.pro/pricing)
+- [Blog](https://magicmaster.pro/blog)
+- [Terms of service](https://magicmaster.pro/terms)
+- [Privacy policy](https://magicmaster.pro/privacy)
+
+## API Evangelist rating
+
+**Kin Score 48.3** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 52.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 59.1 |
+
+**Agent readiness 54.5** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/magicmaster-pro/](https://apis.io/providers/magicmaster-pro/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Magic Master: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/magicmaster-pro/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
